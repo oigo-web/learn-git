@@ -1,5 +1,2 @@
 # learn-git
-
-In this repo. we are lerning Git 
-
-## Creating header by double "##"
+# This is learning process and I'm on my way
