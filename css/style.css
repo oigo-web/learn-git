@@ -1,0 +1,138 @@
+/* This is a CSS file that contains styles 
+for various components of the web page, 
+including the currency marquee, language switcher, 
+and other UI elements. */
+
+/* CSS Road Map */
+/* 1. Global Styles */
+/* 2. Currency Marquee */
+/* 3. Language Switcher */
+/* 4. Footer */
+/* 5. Responsive Design */
+/* 6. Miscellaneous */
+/* 1. Global Styles */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+h4 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+h5 {
+    font-size: 14px;
+    margin: 10px 0;
+}
+h6 {
+    font-size: 12px;
+    margin: 10px 0;
+}
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* 2. Currency Marquee */
+.marquee {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: marquee 10s linear infinite;
+}
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+/* 3. Language Switcher */
+.language-switcher {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.language-switcher a {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+.language-switcher a:hover {
+    background-color: #555;
+}
+/* 4. Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+    font-size: 12px;
+}
+/* 5. Responsive Design */
+@media (max-width: 768px) {
+    .marquee-content {
+        font-size: 14px;
+    }
+    .language-switcher a {
+        font-size: 12px;
+    }
+}
+/* 6. Miscellaneous */
+.button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #555;
+}
+/* End of CSS */
+/* This CSS file is designed to be modular and easy to maintain.
+   Each section is clearly defined, and comments are provided 
+   to explain the purpose of each style rule. The use of 
+   media queries ensures that the design is responsive and 
+   adapts to different screen sizes. */
