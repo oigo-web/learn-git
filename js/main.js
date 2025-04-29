@@ -145,3 +145,16 @@ function handleAppInternationalization() {
 // Initialize the application
 initializeApp();
 // This is the main JavaScript file for the application
+
+// giving berth to the page
+function page(_params) {
+    console.log("Page initialized");
+    pages = _params;
+    loadData();
+    renderApp();
+    handleUserInteractions();
+    handleAppEvents();
+    handleAppErrors();
+    handleAppState();
+    handleAppConfig();
+}
