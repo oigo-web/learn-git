@@ -95,14 +95,45 @@
                 <p>Feel free to explore the navigation menu to learn more about us.</p>
                 <picture>
                     <source srcset="images/home-image.webp" type="image/webp">
-                    <img src="images/home-image.jpg" alt="Home Image">
+                    <img src="img/my-work.png" alt="Home Image"> <!-- Fixed img tag closing --> 
                 </picture>
+                <div class="window">
+                    <div class="window-content">
+                        <h3>Window Content</h3>
+                        <p>This is a sample window content.</p>
+                    </div>
+                    <div class="window-footer">
+                        <button class="close-button">Close</button>
+                    </div>
+                </div>                
                 <video width="620" height="340" controls>
                     <source src="videos/home-video.mp4" type="video/mp4">
                     <source src="videos/home-video.ogg" type="video/ogg">
                 </video> <!-- Fixed video tag closing -->
             </section>
+            <nav class="bar-pebar">
+                <row class="bar-pebar">
+                    <canvas id="canvas">
+                        <script>
+                            var canvas = document.getElementById('canvas');
+                            var ctx = canvas.getContext('2d');
+                            var width = canvas.width;
+                            var height = canvas.height;
 
+                            // Draw a rectangle
+                            ctx.fillStyle = '#FF0000';
+                            ctx.fillRect(10, 10, 100, 100);
+
+                            // Draw a circle
+                            ctx.beginPath();
+                            ctx.arc(150, 50, 40, 0, Math.PI * 2);
+                            ctx.fillStyle = '#00FF00';
+                            ctx.fill();
+                        </script>
+
+                    </canvas>
+                </row>
+            </nav>
             <section id="about">
                 <h2>About Section</h2>
                 <p>This is the about section of the web page.</p>
