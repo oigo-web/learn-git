@@ -27,14 +27,13 @@
     
 </head> 
 <body>
-
     <!-- Page -->
      <div class="page">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h1>OI</h1>
-                    <p>This is a simple web page.</p>
+                    <p>This is me perspiciatis</p>
                 </div>
             </div>
         </div>
@@ -89,12 +88,25 @@
         <!-- Main Content -->
         <main>
             <section id="home">
+                <div class="lipstick">
+                    <div class="lipstick-content">
+                        <span class="lipstick-text">Lipstick
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lipstick">
+                                <path d="M12 2v10l-4 4h8l-4-4V2z"></path>
+                                <path d="M6 22h12v-2H6v2z"></path>
+                            </svg>
+                        </span>
+                        <img src="images/lipstick.png" alt="Lipstick Image">
                 <h2>First Page</h2>
                 <p>Let's get started with this Page</p> 
                 <p>Welcome to the first page of this web application. Here, you can find various sections that provide information about different topics.</p>
                 <p>Feel free to explore the navigation menu to learn more about us.</p>
+            </div>
                 <picture>
                     <source srcset="images/home-image.webp" type="image/webp">
+                    <dfn class="1101-df"> <!-- Added dfn tag -->
+                        <img src="images/home-image.jpg" alt="Home Image">
+                    </dfn> <!-- Fixed dfn tag closing -->
                     <img src="img/my-work.png" alt="Home Image"> <!-- Fixed img tag closing --> 
                 </picture>
                 <div class="window">
@@ -105,7 +117,13 @@
                     <div class="window-footer">
                         <button class="close-button">Close</button>
                     </div>
-                </div>                
+                    <area class="window-area" href="#" title="Window Area" alt="Window Area">
+                    <div class="window-title">Window Title</div>
+                    <div class="window-body">
+                        <p>This is the body of the window.</p>
+                        <p>Here you can add more content or information.</p>
+                    </div>                
+                </div> <!-- Fixed window closing tag -->
                 <video width="620" height="340" controls>
                     <source src="videos/home-video.mp4" type="video/mp4">
                     <source src="videos/home-video.ogg" type="video/ogg">
@@ -116,24 +134,131 @@
                     <canvas id="canvas">
                         <script>
                             var canvas = document.getElementById('canvas');
-                            var ctx = canvas.getContext('2d');
+                            var ctx = canvas.getContext('2d'); // Fixed context type from 'd' to '2d'
                             var width = canvas.width;
                             var height = canvas.height;
 
                             // Draw a rectangle
-                            ctx.fillStyle = '#FF0000';
+                            ctx.fillStyle = 'orange';
+                            ctx.fillRect(0, 0, width, height);
+                            ctx.fillRect(0, 0, 100, 100); // Fixed variable name from ctz to ctx
+                            ctx.fillStyle = 'blue';
                             ctx.fillRect(10, 10, 100, 100);
-
+                            ctx.fillRect(20, 20, 100, 100); // Fixed variable name from ctz to ctx
+                            ctx.fillStyle = 'red'; // Updated fill style for the next rectangle
+                            ctx.fillRect(50, 50, 100, 100); // Added new rectangle
+                            ctx.fillStyle = 'yellow'; // Updated fill style for the next rectangle
+                            ctx.fillRect(100, 100, 100, 100); // Added new rectangle
+                            ctx.fillStyle = 'purple'; // Updated fill style for the next rectangle
+                            ctx.fillRect(150, 150, 100, 100); // Added new rectangle
                             // Draw a circle
                             ctx.beginPath();
                             ctx.arc(150, 50, 40, 0, Math.PI * 2);
                             ctx.fillStyle = '#00FF00';
                             ctx.fill();
+                            JSON.stringify(ctx);
+                            // Draw a triangle
+                            ctx.beginPath();
+                            ctx.moveTo(200, 200);
+                            ctx.lineTo(250, 200);
+                            ctx.lineTo(225, 150);
+                            ctx.closePath();
+                            ctx.fillStyle = '#0000FF';
+                            ctx.fill();
+                            // Draw a line
+                            ctx.beginPath();
+                            ctx.moveTo(300, 300);
+                            ctx.lineTo(400, 400);
+                            ctx.strokeStyle = '#FF0000';
+                            ctx.lineWidth = 5;
+                            ctx.stroke();
+                            // Draw text
+                            ctx.font = '30px Arial';
+                            ctx.fillStyle = '#000000';
+                            ctx.fillText('Hello World', 50, 50);
+                            ctx.fillText('Canvas Text', 50, 100); // Added new text
+                            ctx.fillText('Canvas Drawing', 50, 150); // Added new text
+                            ctx.fillText('Canvas Example', 50, 200); // Added new text
+                            ctx.fillText('Canvas Graphics', 50, 250); // Added new text
+                            ctx.fillText('Canvas Art', 50, 300); // Added new text
+                            ctx.fillText('Canvas Animation', 50, 350); // Added new text
+                            ctx.fillText('Canvas Shapes', 50, 400); // Added new text
+                            ctx.fillText('Canvas Design', 50, 450); // Added new text
+                            ctx.fillText('Canvas Drawing', 50, 500); // Added new text
+                            ctx.fillText('Canvas Graphics', 50, 550); // Added new text
+                            ctx.moveTo(300, 300);
+                            ctx.lineTo(400, 400);
+                            ctx.strokeStyle = '#FF0000';
+                            ctx.lineWidth = 5;
+                            ctx.stroke();
+                            // Draw text
+                            ctx.font = '30px Arial';
+                            ctx.fillStyle = '#000000';
+                            ctx.fillText('Hello World', 50, 50);
+                            ctx.fillText('Canvas Text', 50, 100); // Added new text
+                            ctx.fillText('Canvas Drawing', 50, 150); // Added new text
+                            ctx.fillText('Canvas Example', 50, 200); // Added new text
+                            ctx.fillText('Canvas Graphics', 50, 250); // Added new text
+                            ctx.fillText('Canvas Art', 50, 300); // Added new text
+                            ctx.fillText('Canvas Animation', 50, 350); // Added new text
+                            ctx.fillText('Canvas Shapes', 50, 400); // Added new text
+                            ctx.fillText('Canvas Design', 50, 450); // Added new text
+                            ctx.fillText('Canvas Drawing', 50, 500); // Added new text
+                            ctx.fillText('Canvas Graphics', 50, 550); // Added new text
                         </script>
-
-                    </canvas>
+                    </canvas>                 
                 </row>
             </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <time datetime="2025-10-01" clock="12:00"></time>October 23, 2003</time>
+                            <click-> tick-tick->
+                                <tick->
+                                    <p>Click here to see the time</p>
+                                    <p>Click here to see the date</p>
+                                    <p>Click here to see the year</p>
+                                    <p>Click here to see the month</p>
+                                    <p>Click here to see the day</p>
+                                    <p>Click here to see the hour</p>
+                                    <p>Click here to see the minute</p>
+                                    <p>Click here to see the second</p>
+                                </tick->
+                            </click->
+                        </time>
+                        <wbr class="wbr"> <!-- Added wbr tag -->
+                            <article class="thoughts">
+                                <h3>Thoughts Section</h3> <!-- Added section title -->
+                                <p>This is where we share our thoughts and insights.</p> <!-- Added description -->
+                            </article>
+                        </wbr> <!-- Added wbr tag -->
+                        <div class="say-hello">
+                            <h2>Any thoughts</h2>
+                            <p>Type your name, email, and of course your message.</p> <!-- Updated description -->
+                                <form action="#" method="post"> <!-- Added contact form -->
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="name" required>
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <label for="message">Message:</label>
+                                    <textarea id="message" name="message" required></textarea>
+                                    <button type="submit" class="button">Send</button> <!-- Added class for styling -->
+                                </form> <!-- End of contact form -->
+                            
+                            <p>Thank you for reaching out! We will get back to you soon.</p> <!-- Added thank you message -->
+                            <p>We appreciate your feedback and will respond as soon as possible.</p> <!-- Added additional message -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div> <!-- Fixed closing div tag -->
+            <abbr title="Abbreviation">What is HTML?
+                HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages and web applications. HTML describes the structure of a web page using markup.</abbr> <!-- Added abbreviation tag -->
+            <p>HTML elements are represented by tags. HTML tags label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</p>
+            </abbr> <!-- Added abbreviation tag -->
+            <param name="param" value="value"> <!-- Added param tag -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque facilis dolorem odio at pariatur doloribus alias perspiciatis! Maxime, nam voluptas. Atque provident, inventore aut iste illo dolores eligendi eum.</p>
+
             <section id="about">
                 <h2>About Section</h2>
                 <p>This is the about section of the web page.</p>
@@ -148,17 +273,7 @@
             </section>
 
             <section id="contact">
-                <h2>Contact Section</h2>
-                <p>This is the contact section of the web page.</p>
-                <form action="#" method="post"> <!-- Added contact form -->
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                    <button type="submit">Send</button>
-                </form> <!-- End of contact form -->
+                ...
             </section>
         </main>
 

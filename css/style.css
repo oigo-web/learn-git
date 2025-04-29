@@ -142,7 +142,7 @@ footer p {
     background-color: #ca5d0a;
     color: rgb(247, 215, 12);
     padding: 10px 0;
-    text-align: center;
+    text-align: right;
     position: relative;
     z-index: 1000;
     width: 100%;
@@ -153,6 +153,10 @@ footer p {
 }
 .head:hover {
     background-color: #d68a0a;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
 }
 .head h1 {
     margin: 0;
@@ -354,3 +358,267 @@ footer p {
     text-decoration: underline;
 }
 /* class container end */
+
+/* Class page */
+.page {
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 50px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+.page:hover {
+    background-color: #e0e0e0;
+}
+.page h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.page p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.page a {
+    color: #d99009;
+    text-decoration: none;
+}
+.page a:hover {
+    text-decoration: underline;
+}
+.page .button {
+    background-color: #d59304;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.page .button:hover {
+    background-color: #555;
+}
+
+/* Class Theme-flip-icon */
+.theme-flip-icon {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 20px 0;
+}
+.theme-flip-icon :hover {
+    transform: rotateY(180deg);
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+@keyframes flip {
+    0% { transform: rotateY(0deg); }
+    50% { transform: rotateY(180deg); }
+    100% { transform: rotateY(360deg); }
+}
+/* Class Theme-flip-icon end */
+
+/* Let's shape everything within main */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 50px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+.main:hover {
+    background-color: #e0e0e0;
+}
+.main h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.main p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.main a {
+    color: #d99009;
+    text-decoration: none;
+}
+.main a:hover {
+    text-decoration: underline;
+}
+.main .button {
+    background-color: #d59304;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main .button:hover {
+    background-color: #555;
+}
+/* Class lipstick */
+.lipstick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.lipstick img {
+    width: 60px;
+    height: 50px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+.lipstick h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.lipstick p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.lipstick a {
+    color: #d99009;
+    text-decoration: none;
+}
+.lipstick a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+.lipstick .button {
+    background-color: #d59304;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lipstick .button:hover {
+    background-color: #555;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 1px solid #d59304;
+}
+/* Class lipstick end */
+
+/* Within nav class bar-pebar */
+.nav-bar-pebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.nav-bar-pebar img {
+    width: 60px;
+    height: 50px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+.nav-bar-pebar h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.nav-bar-pebar p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.nav-bar-pebar a {
+    color: #d99009;
+    text-decoration: none;
+}
+.nav-bar-pebar a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+.nav-bar-pebar .button {
+    background-color: #d59304;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-bar-pebar .button:hover {
+    background-color: #555;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 1px solid #d59304;
+}
+/* Class nav-bar-pebar end */
+
+/* Class say-hello */
+.say-hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.say-hello img {
+    width: 60px;
+    height: 50px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+.say-hello h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    justify-content: left;
+}
+.say-hello p {
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 10px 0;
+    justify-content: left;
+}
+.say-hello a {
+    color: #d99009;
+    text-decoration: none;
+}
+.say-hello a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+.say-hello .button {
+    background-color: #d59304;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.say-hello .button:hover {
+    background-color: #555;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 1px solid #d59304;
+}
