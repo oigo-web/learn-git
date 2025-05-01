@@ -1,0 +1,94 @@
+/* Let's shape everything within main */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 50px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+.main:hover {
+    background-color: #e0e0e0;
+}
+.main h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.main p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.main a {
+    color: #d99009;
+    text-decoration: none;
+}
+.main a:hover {
+    text-decoration: underline;
+}
+.main .button {
+    background-color: #d59304;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main .button:hover {
+    background-color: #555;
+}
+/* Class lipstick */
+.lipstick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.lipstick img {
+    width: 60px;
+    height: 50px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+.lipstick h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.lipstick p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.lipstick a {
+    color: #d99009;
+    text-decoration: none;
+}
+.lipstick a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+.lipstick .button {
+    background-color: #d59304;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lipstick .button:hover {
+    background-color: #555;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 1px solid #d59304;
+}
+/* Class lipstick end */

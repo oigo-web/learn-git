@@ -1,0 +1,64 @@
+/* head class */
+.head {
+    background-color: #ca5d0a;
+    color: rgb(247, 215, 12);
+    padding: 10px 0;
+    text-align: right;
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+.head:hover {
+    background-color: #d68a0a;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+.head h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+.head h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #fff;
+}
+.head h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #fff;
+}
+.head h4 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #fff;
+}
+.head h5 {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #fff;
+}
+.head h6 {
+    font-size: 12px;
+    margin: 10px 0;
+    color: #fff;
+}
+.head p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #fff;
+}
+.head a {
+    color: #fff;
+    text-decoration: none;
+}
+.head a:hover {
+    text-decoration: underline;
+}
