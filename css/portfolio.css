@@ -1,0 +1,66 @@
+/* Here is all about portfolio.html */
+/* Portfolio page styles */
+/* Style Road Map */
+
+/* 1. Portfolio Section */
+/* 2. Portfolio Item */
+/* 3. Portfolio Modal */
+/* 4. Portfolio Modal Content */
+/* 5. Portfolio Modal Close Button */
+/* 6. Portfolio Modal Image */
+/* 7. Portfolio Modal Description */
+/* 8. Portfolio Modal Title */
+/* 9. Portfolio Modal Tags */
+/* 10. Portfolio Modal Tags List */
+/* 11. Portfolio Modal Image */
+/* 12. Portfolio Modal Image Caption */
+/* 13. Portfolio Modal Image Caption Text */
+/* 14. Portfolio Modal Image Caption Close Button */
+
+/* 1. Portfolio Section */
+/* class wath-kilen */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+/* class container */
+.portfolio .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* class row */
+.portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* class mash-wath */
+.portfolio .mash-wath {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* class lf-1-111- */
+.portfolio .lf-1-111- {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* class logo */
+.portfolio .logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
